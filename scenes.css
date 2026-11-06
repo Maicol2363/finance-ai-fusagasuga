@@ -397,7 +397,7 @@ body[data-theme="uc"] .rw.part { background: #fffaf0; }
 .unm b { color: var(--gold-l); }
 
 /* ───────── 12 · aportes ───────── */
-.ap-row { position: absolute; left: 72px; right: 72px; top: 160px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.ap-row { position: absolute; left: 72px; right: 72px; top: 178px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
 .ap { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 6px 14px; text-align: center; }
 .orbit { position: relative; width: 204px; height: 204px; margin-bottom: 8px; }
 .orbit i { position: absolute; inset: 0; border-radius: 50%; border: 2px dashed rgba(218, 170, 0, .55); }
@@ -405,8 +405,8 @@ body[data-theme="uc"] .rw.part { background: #fffaf0; }
 .orbit i::before { content: ""; position: absolute; top: -7px; left: 50%; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--gold-l); box-shadow: 0 0 12px var(--gold); }
 .orbit .cir { position: absolute; inset: 36px; display: grid; place-items: center; border-radius: 50%; background: var(--cream); color: #00482b; box-shadow: 0 12px 30px rgba(0, 20, 10, .4); }
 .cir .i { width: 54px; height: 54px; stroke-width: 1.5; }
-.ap h3 { font-family: Georgia, 'Times New Roman', serif; font-size: 25px; line-height: 1.15; color: var(--gold-l); }
-.ap p { font-size: 17.5px; line-height: 1.45; color: var(--cream); }
+.ap h3 { font-family: Georgia, 'Times New Roman', serif; font-size: 28px; line-height: 1.15; color: var(--gold-l); }
+.ap p { font-size: 21px; line-height: 1.4; color: var(--cream); }
 .ap p b { color: var(--gold-l); }
 
 /* ───────── 13 · cierre y demostración ───────── */
